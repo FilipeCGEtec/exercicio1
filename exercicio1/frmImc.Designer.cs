@@ -95,6 +95,7 @@
             this.btnvolt.TabIndex = 6;
             this.btnvolt.Text = "Voltar";
             this.btnvolt.UseVisualStyleBackColor = true;
+            this.btnvolt.Click += new System.EventHandler(this.btnvolt_Click);
             // 
             // btncal
             // 
@@ -114,6 +115,7 @@
             this.btnlim.TabIndex = 8;
             this.btnlim.Text = "Limpar";
             this.btnlim.UseVisualStyleBackColor = true;
+            this.btnlim.Click += new System.EventHandler(this.btnlim_Click);
             // 
             // frmImc
             // 

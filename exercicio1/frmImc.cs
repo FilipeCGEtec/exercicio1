@@ -42,5 +42,20 @@ namespace exercicio1
                 txtimc.Text = "Obesidade III";
             }
         }
+
+        private void btnlim_Click(object sender, EventArgs e)
+        {
+            txtalt.Clear();
+            txtimc.Clear();
+            txtpeso.Clear();
+            txtalt.Focus();
+        }
+
+        private void btnvolt_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var fm = new Form1();
+            fm.Show();
+        }
     }
 }

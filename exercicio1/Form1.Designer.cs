@@ -30,8 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.exerciciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ex1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.postoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.votaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tabuadaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,16 +52,13 @@
             // exerciciosToolStripMenuItem
             // 
             this.exerciciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ex1ToolStripMenuItem});
+            this.ex1ToolStripMenuItem,
+            this.postoToolStripMenuItem,
+            this.votaçãoToolStripMenuItem,
+            this.tabuadaToolStripMenuItem});
             this.exerciciosToolStripMenuItem.Name = "exerciciosToolStripMenuItem";
             this.exerciciosToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.exerciciosToolStripMenuItem.Text = "exercicios";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.sairToolStripMenuItem.Text = "sair";
             // 
             // ex1ToolStripMenuItem
             // 
@@ -66,6 +66,33 @@
             this.ex1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.ex1ToolStripMenuItem.Text = "imc";
             this.ex1ToolStripMenuItem.Click += new System.EventHandler(this.ex1ToolStripMenuItem_Click);
+            // 
+            // sairToolStripMenuItem
+            // 
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.sairToolStripMenuItem.Text = "sair";
+            // 
+            // postoToolStripMenuItem
+            // 
+            this.postoToolStripMenuItem.Name = "postoToolStripMenuItem";
+            this.postoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.postoToolStripMenuItem.Text = "posto ";
+            this.postoToolStripMenuItem.Click += new System.EventHandler(this.postoToolStripMenuItem_Click);
+            // 
+            // votaçãoToolStripMenuItem
+            // 
+            this.votaçãoToolStripMenuItem.Name = "votaçãoToolStripMenuItem";
+            this.votaçãoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.votaçãoToolStripMenuItem.Text = "votação";
+            this.votaçãoToolStripMenuItem.Click += new System.EventHandler(this.votaçãoToolStripMenuItem_Click);
+            // 
+            // tabuadaToolStripMenuItem
+            // 
+            this.tabuadaToolStripMenuItem.Name = "tabuadaToolStripMenuItem";
+            this.tabuadaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tabuadaToolStripMenuItem.Text = "tabuada";
+            this.tabuadaToolStripMenuItem.Click += new System.EventHandler(this.tabuadaToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -89,6 +116,9 @@
         private System.Windows.Forms.ToolStripMenuItem exerciciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ex1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem postoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem votaçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tabuadaToolStripMenuItem;
     }
 }
 
