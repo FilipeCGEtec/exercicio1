@@ -70,6 +70,12 @@
     <Compile Include="frmTabuada.Designer.cs">
       <DependentUpon>frmTabuada.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmVotacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVotacao.Designer.cs">
+      <DependentUpon>frmVotacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

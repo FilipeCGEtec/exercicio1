@@ -19,7 +19,7 @@ namespace exercicio1
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
-            double val, lit, des, final;
+            double val, lit, des;
             char tip;
 
             tip = Convert.ToChar(txtTipo);
