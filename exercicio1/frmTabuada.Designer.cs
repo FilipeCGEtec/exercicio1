@@ -47,6 +47,7 @@
             this.btnVoltar.TabIndex = 0;
             this.btnVoltar.Text = "Voltar";
             this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnLimpar
             // 
@@ -56,6 +57,7 @@
             this.btnLimpar.TabIndex = 1;
             this.btnLimpar.Text = "Limpar";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnCalcular
             // 
@@ -108,6 +110,7 @@
             this.btnCalcular3.TabIndex = 7;
             this.btnCalcular3.Text = "Calcular (do)";
             this.btnCalcular3.UseVisualStyleBackColor = true;
+            this.btnCalcular3.Click += new System.EventHandler(this.btnCalcular3_Click);
             // 
             // btnCalcular2
             // 
@@ -117,6 +120,7 @@
             this.btnCalcular2.TabIndex = 8;
             this.btnCalcular2.Text = "Calcular (while)";
             this.btnCalcular2.UseVisualStyleBackColor = true;
+            this.btnCalcular2.Click += new System.EventHandler(this.btnCalcular2_Click);
             // 
             // frmTabuada
             // 

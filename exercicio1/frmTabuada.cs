@@ -23,11 +23,54 @@ namespace exercicio1
             int i;
 
             x = Convert.ToDouble(txtNum.Text);
-            for (i = 1; i < 10; i++) {
+            for (i = 1; i <= 10; i++) {
                 result = x * i;
 
-                txtResult.Text = String.Concat(txtResult.Text, " \n\n ", result.ToString()); ;
+                txtResult.Text = String.Concat(txtResult.Text, " \n\n ", result.ToString());
             }
+        }
+
+        private void btnCalcular2_Click(object sender, EventArgs e)
+        {
+            double x, result;
+            int i;
+            i = 1;
+            x = Convert.ToDouble(txtNum.Text);
+
+            while (i <= 10) {
+                result = x * i;
+                i++;
+                txtResult.Text = String.Concat(txtResult.Text, " \n\n ", result.ToString());
+            }
+        }
+
+        private void btnCalcular3_Click(object sender, EventArgs e)
+        {
+            double x, result;
+            int i;
+            i = 1;
+            x = Convert.ToDouble(txtNum.Text);
+
+            do
+            {
+                result = x * i;
+                i++;
+                txtResult.Text = String.Concat(txtResult.Text, " \n\n ", result.ToString());
+            } while (i <= 10);
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtNum.Clear();
+            txtResult.Clear();
+            txtNum.Focus();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            var fm = new Form1();
+            fm.Show();
         }
     }
 }
