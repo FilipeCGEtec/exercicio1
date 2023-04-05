@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 
 namespace exercicio1
 {
@@ -22,8 +23,24 @@ namespace exercicio1
             double peso, altura, imc;
  
            peso = Convert.ToDouble(txtpeso.Text);
-            altura = Convert.ToDouble(txtalt.Text);
-            imc = peso/Math.Pow()
+           altura = Convert.ToDouble(txtalt.Text);
+            imc = peso / Math.Pow(altura, 2);
+
+            if (imc < 18.5)
+            {
+                txtimc.Text = "Abaixo do peso.";
+            }
+            else if (imc >= 18.5 && imc < 29.9)
+            {
+                txtimc.Text = "Sobrepeso";
+            }
+            else if (imc >= 29.9 && imc < 30)
+            {
+                txtimc.Text = "Obesidade II";
+            }
+            else {
+                txtimc.Text = "Obesidade III";
+            }
         }
     }
 }
