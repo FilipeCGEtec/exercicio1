@@ -41,7 +41,7 @@ namespace exercicio1
             else if (tip == 'A') {
                 if (lit <= 20) {
                     des = (4.90 * (4 / 100)) * lit;
-                    val = (4.90 * lit) - des;
+                    val = (4.90 * lit) - des * 1;
                 }
                 else
                 {
