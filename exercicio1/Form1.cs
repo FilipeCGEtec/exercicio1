@@ -44,5 +44,10 @@ namespace exercicio1
             var fm = new frmVotacao();
             fm.Show();
         }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
