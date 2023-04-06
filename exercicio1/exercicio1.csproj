@@ -90,6 +90,9 @@
     <EmbeddedResource Include="frmTabuada.resx">
       <DependentUpon>frmTabuada.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmVotacao.resx">
+      <DependentUpon>frmVotacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
